@@ -2,6 +2,8 @@ window.onload = function() {
     alert("Selamat datang di landing page!");
 }
 
+window.location.replace("landingdom.html");
+
 let slideIndex = 0;
 showSlides();
 
