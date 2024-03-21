@@ -24,26 +24,25 @@ footer {
 }
 
 nav {
-    background-color:  #ffa500;
+    display: flex;
+    align-items: center;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.navbar-brand {
+    margin-right: auto; /* Menggeser ke kiri sejauh mungkin */
 }
 
-nav ul li {
-    float: left;
+.navbar-menu {
+    list-style: none;
+    display: flex;
 }
 
-nav ul li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.navbar-menu li {
+    margin-right: 20px; /* Jarak antar item menu */
+}
+
+.toggle-icon {
+    cursor: pointer;
 }
 
 .prev, .next {
