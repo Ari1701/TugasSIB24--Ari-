@@ -25,6 +25,23 @@ const endpoint = 'https://crudcrud.com/api/eb832c0c76ce467496886277ae40fba0/prod
       document.querySelector('.error').style.display = 'block';
     });
 
+fetch(endpoint)
+    .then((response) => response.json())
+    .then((res) => {
+        let datas = res;
+
+        datas.forEach((product_item) => {
+        document.getElementById('produk').innerHTML += `
+            <div class="card">
+                <h3> ${product_item.nama_produk} </h3>
+                <p> Rp. ${product_item.harga} </p>
+                <h6> Jumlah : ${product_item.jumlah} </h6>
+            </div>
+            `;
+    });
+});
+
+
   // Fungsi untuk menambahkan data baru
   function tambah_data(event) {
     event.preventDefault();
