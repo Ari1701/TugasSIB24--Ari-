@@ -29,7 +29,7 @@ nav {
 }
 
 .navbar-brand {
-    margin-right: auto; /* Menggeser ke kiri sejauh mungkin */
+    margin-right: auto; 
 }
 
 .navbar-menu {
@@ -38,11 +38,7 @@ nav {
 }
 
 .navbar-menu li {
-    margin-right: 20px; /* Jarak antar item menu */
-}
-
-.toggle-icon {
-    cursor: pointer;
+    margin-right: 20px; 
 }
 
 .prev, .next {

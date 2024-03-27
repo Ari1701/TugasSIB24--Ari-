@@ -1,0 +1,132 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ffa500; /* Warna latar belakang navbar */
+    color: #fff; /* Warna teks navbar */
+    padding: 10px 20px; /* Padding navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow navbar */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-menu li {
+    margin-right: 20px; 
+  }
+  
+  .navbar-menu a {
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+  }
+  
+  .navbar-menu a:hover {
+    color: #735b30; 
+  }
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.form-section, .data-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, button {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.tambah {
+    cursor: pointer;
+    background-color: #00ff4c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.edit-button {
+    background-color: #007bff; /* Warna latar belakang tombol edit */
+    color: #fff; /* Warna teks tombol edit */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+.delete-button {
+    
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+  
+  /* Efek hover */
+.edit-button:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol edit saat dihover */
+}
+  
+.delete-button:hover {
+    background-color: #c82333; /* Warna latar belakang tombol hapus saat dihover */
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+ }
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+a.tbledit, a.tbldelete {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 3px 8px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+
