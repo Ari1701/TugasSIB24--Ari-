@@ -141,3 +141,20 @@ a.tbledit, a.tbldelete {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .form {
+        width: 90%;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .navbar-menu li {
+        margin-right: 10px; 
+    }
+}
