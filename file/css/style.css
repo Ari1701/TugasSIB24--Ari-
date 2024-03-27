@@ -88,7 +88,8 @@ nav {
 .box {
     flex: 1;
     padding: 20px;
-    border: 1px solid #ccc;
+    background: #ffffff;
+    border: 1px solid #ffffff;
     height: 300px;
     border-radius: 8px;
     margin: 10px;
@@ -128,9 +129,51 @@ button {
     cursor: pointer;
     text-decoration: none;
     position: absolute;
-    bottom: 10px; /* Menempatkan tombol di bagian bawah kotak */
+    bottom: 10px;
 }
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Menata tombol secara vertikal */
+  }
+
+.tombol {
+    background-color: #077f2f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none; /* Menghapus garis bawah pada tautan */
+  }
 
 button:hover {
     background-color: #00ff55;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    text-align: center;
+  }
+  
+  .b {
+    display: block;
+    padding: 10px 20px;
+    margin: 10px; /* Menambahkan jarak antara tautan */
+    background-color: #f4f9ff;
+    color: rgb(240, 147, 34);
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  a:hover {
+    background-color: #cd9104;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
