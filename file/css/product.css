@@ -8,9 +8,9 @@ body {
 }
 
 nav {
-    background-color: #ffa500; /* Warna latar belakang navbar */
-    color: #fff; /* Warna teks navbar */
-    padding: 10px 20px; /* Padding navbar */
+    background-color: #ffa500; 
+    color: #fff; 
+    padding: 10px 20px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow navbar */
     display: flex;
     align-items: center;
@@ -40,6 +40,7 @@ nav {
   .navbar-menu a:hover {
     color: #735b30; 
   }
+
 .container {
     display: flex;
     justify-content: space-around;

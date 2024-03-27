@@ -24,22 +24,39 @@ footer {
 }
 
 nav {
+    background-color: #ffa500; 
+    color: #fff; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow navbar */
     display: flex;
     align-items: center;
-}
-
-.navbar-brand {
-    margin-right: auto; 
-}
-
-.navbar-menu {
+    justify-content: space-between;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-menu {
     list-style: none;
+    padding: 0;
     display: flex;
-}
-
-.navbar-menu li {
+  }
+  
+  .navbar-menu li {
     margin-right: 20px; 
-}
+  }
+  
+  .navbar-menu a {
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+  }
+  
+  .navbar-menu a:hover {
+    color: #735b30; 
+  }
+
 
 .prev, .next {
     cursor: pointer;
